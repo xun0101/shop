@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/',
+  publicPath: './',
   chainWebpack (config) {
     config.plugin('html').tap(args => {
       args[0].title = '購物商城'
